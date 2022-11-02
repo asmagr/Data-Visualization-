@@ -13,7 +13,7 @@ from pwc import plotly_wordcloud
 # st.write("Hello, Worlds!")
 st.sidebar.title('Data Vizualisation of Spotify History')
 st.sidebar.header('By Asma GRAIESS.')
-image = Image.open('images/person.jpg')
+image = Image.open('/Users/asma/Desktop/S7/DataVisualisation/ProjectData/MyData/Spotify-Logo1.jpeg')
 st.sidebar.image(image,width=300)
 # st.sidebar.image('/Users/asma/Dropbox/My Mac (Asma’s MacBook Pro)/Downloads/qrcode_www.linkedin.com.png',width=150)
 agree = st.radio('Would you like to vizualise my Spotify data or yours ?', ('Mine', 'Yours'))
